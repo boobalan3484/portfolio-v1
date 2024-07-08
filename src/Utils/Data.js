@@ -28,6 +28,7 @@ import tailwind from '../assets/skill_icons/tailwind.svg'
 import form from '../assets/projects_bg/form.png'
 import fruitshop from '../assets/projects_bg/fruitshop.png'
 import portfolio from '../assets/projects_bg/portfolio.png'
+import v1portfolio from '../assets/projects_bg/portfolio-v1.png'
 import socialPost from '../assets/projects_bg/socialPost.png'
 import todolist from '../assets/projects_bg/todolist.png'
 import bohar from '../assets/projects_bg/bohar.png'
@@ -205,7 +206,7 @@ export const data = {
         project: [
             {
                 title: 'Business Landing Page',
-                description: 'I created a portfolio app that showcases my personal and professional achievements, skills, and projects.',
+                description: 'I designed and developed a realtime project Business Landing web page for Bohar Karate Training School.',
                 tech: ['React', 'Tailwind CSS', 'Firebase'],
                 url: "https://boharkaratetrainingschool.com",
                 image: bohar
@@ -214,14 +215,21 @@ export const data = {
                 title: 'Admin Module - CRUD App',
                 description: 'I designed and implemented a streamlined and user-friendly admin module. Integrated with Node.js, Express and MongoDB, the form ensures efficient data handling and seamless communication between admin and the server.',
                 tech: ['Vite + React', 'Tailwind CSS', 'Node', 'Express', 'MongoDB'],
-                url: "https://boharkaratetrainingschool.com",
+                url: "https://github.com/boobalan3484/admin_module-crud",
                 image: admin
             },
             {
+                title: 'v1-Portfolio Website',
+                description: 'I developed a new version of my portfolio web app that showcases my personal and professional achievements, skills, and projects.',
+                tech: ['Vite + React', 'Tailwind CSS'],
+                url: "https://v1-boobalan.web.app/",
+                image: v1portfolio
+            },
+            {
                 title: 'Online Grocerite Store',
-                description: 'I created a android mobile app ',
+                description: 'I developed a android mobile app for grocerite store. ',
                 tech: ['Expo + React Native', 'Redux', 'MongoDB'],
-                url: "https://boharkaratetrainingschool.com",
+                url: "https://github.com/boobalan3484/grocerite-mobile-app",
                 image: ogani
             },
             {
