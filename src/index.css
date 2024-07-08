@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Backsteal';
+  src: url('/public/Backsteal-Regular.otf') format('truetype');
+}
+
+body {
+  /* background:linear-gradient(to right, #475071, #752c43) */
+  /* background: linear-gradient(to right, #3a6186cf, #3a8286cf); */
+  @apply bg-gradient1;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #475071;
+  border: 3px solid #eef3f7;
+  border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-Track;
+
+}
+
+::selection {
+  @apply bg-cyan-400/90 text-yellow-200;
+}
+
+.url-items {
+  @apply hover:transition-colors hover:duration-200 duration-200 my-2 p-3 gap-4 flex items-center content-center rounded-lg;
+}
+
+.url-items:hover .qualification-sub-title {
+  @apply text-teal-400;
+}
